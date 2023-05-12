@@ -1,6 +1,6 @@
 header{
 
-    background: #BBBBBB;
+    background: #810fa3;
 }
 
 nav li{
@@ -16,4 +16,22 @@ nav a{
     font-weight: bolder;
     font-size: 22px;
     text-decoration: none;
+    position:relative;
+}
+
+nav{
+    position:absolute;
+    top:110px;
+    margin:0 0 0 500px;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 0 100px;
+
+}
+
+.produtos{
+    width: 9400px;
 }
