@@ -1,6 +1,8 @@
 header{
 
     background: #810fa3;
+    padding: 20px 0;
+
 }
 
 nav li{
@@ -13,10 +15,14 @@ nav a{
 
     text-transform: uppercase;
     color: #000000;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-    position:relative;
+}
+nav a:hover{
+    color: #eb0a03;
+    text-decoration: underline;
+
 }
 
 nav{
@@ -28,10 +34,53 @@ nav{
 .produtos li{
     display: inline-block;
     text-align: center;
-    margin: 0 0 0 100px;
-
+    width: 30%;
+    vertical-align: top;
+    background: #ffffffcc;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;   
+    border-radius: 10px;
+    
 }
 
 .produtos{
-    width: 9400px;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+.produto-descricao {
+    font-size: 18px;
+}
+footer {
+    text-align: center;
+    background:url("bg,jpg");
+    padding: 40px 0;
+}
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+}
+.produtos li:hover h2{
+    border-color: #c91408;
+    font-size: 34px;
+}
+.produtos li:active {
+    border-color:#e21818
 }
