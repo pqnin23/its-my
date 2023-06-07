@@ -1,6 +1,6 @@
 header{
 
-    background: #021463;
+    background: rgb(117, 4, 4);
     padding: 20px 0;
 
 }
@@ -36,7 +36,7 @@ nav{
     text-align: center;
     width: 30%;
     vertical-align: top;
-    background: #ffffffcc;
+    background: #001affcc;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
@@ -78,7 +78,7 @@ footer {
     font-size: 13px;
 }
 .produtos li:hover h2{
-    border-color: #001aff;
+    border-color: blue;
     font-size: 34px;
 }
 .produtos li:active {
@@ -91,7 +91,7 @@ main{
 form{
     margin:40px 0;  
 }
-form label, form p{
+form label, form legend{
     display:block;
     font-size:20px;
     margin:0 0 10px
@@ -110,4 +110,14 @@ form input, form textarea{
 }
 .checkbox{
     margin: 20px 0;
+}
+.enviar{
+    width:40%;
+    background: rgb(48, 165, 24);
+    color:antiquewhite;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
 }
