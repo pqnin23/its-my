@@ -125,6 +125,7 @@ form label, form legend {
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
+	transition: 1s all;
 
 
 
@@ -133,5 +134,18 @@ form label, form legend {
 
 }
 .enviar:hover{
-	background: darkorange;
+	background: rgb(223, 0, 0);
+	transform: scale(1.2);
+}
+table{
+	margin: 20px 0 40px;
+}
+thead{
+	background: #3253e7;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+td{
+	border: 1px solid black;
+	padding: 8px 15px;
 }
