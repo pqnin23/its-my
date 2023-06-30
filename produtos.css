@@ -121,3 +121,6 @@ form input, form textarea{
     border:none;
     border-radius: 5px;
 }
+.banner{
+    width: 100%;
+}
